@@ -1,13 +1,19 @@
-# To run
+# Need to build first
+  `npm install`
+  
+# To run without docker
 `npx nx run-many --target=serve --projects=genie-webapp,platform,webapp --parallel`
 
-# To build
+# To build images for docker
 `npx nx run-many --target=build --projects=genie-webapp,platform,webapp --parallel`
 
-# Run docker build for local
 `docker build -f packages/genie-webapp/Dockerfile . -t nx-genie-webapp`
+
 `docker build -f packages/webapp/Dockerfile . -t nx-insim-webapp`
+
 `docker build -f packages/platform/Dockerfile . -t nx-backend-platform`
+
+
 run `docker-compose up -d`
 
 
