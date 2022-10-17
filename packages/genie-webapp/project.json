@@ -14,7 +14,8 @@
       },
       "configurations": {
         "development": {
-          "outputPath": "packages/genie-webapp"
+          "outputPath": "packages/genie-webapp",
+          "generatePackageJson": true
         },
         "production": {}
       }

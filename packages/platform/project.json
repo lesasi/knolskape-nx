@@ -13,7 +13,8 @@
         "outputPath": "dist/packages/platform",
         "main": "packages/platform/src/main.ts",
         "tsConfig": "packages/platform/tsconfig.app.json",
-        "assets": ["packages/platform/src/assets"]
+        "assets": ["packages/platform/src/assets"],
+        "generatePackageJson": true
       },
       "configurations": {
         "production": {

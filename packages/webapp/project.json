@@ -14,7 +14,8 @@
       },
       "configurations": {
         "development": {
-          "outputPath": "packages/webapp"
+          "outputPath": "packages/webapp",
+          "generatePackageJson": true
         },
         "production": {}
       }
