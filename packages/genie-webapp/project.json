@@ -10,12 +10,13 @@
       "defaultConfiguration": "production",
       "options": {
         "root": "packages/genie-webapp",
-        "outputPath": "dist/packages/genie-webapp"
+        "outputPath": "dist/packages/genie-webapp",
+        "generatePackageJson": true,
+        "includeDevDependenciesInPackageJson": true
       },
       "configurations": {
         "development": {
-          "outputPath": "packages/genie-webapp",
-          "generatePackageJson": true
+          "outputPath": "packages/genie-webapp"
         },
         "production": {}
       }

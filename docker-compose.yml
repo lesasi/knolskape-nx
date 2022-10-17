@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  genie-webapp:
+    image: nx-genie-webapp
+    ports:
+      - '3010:3010'
+  webapp:
+    image: nx-insim-webapp
+    ports:
+      - '3000:3000'
+  backend-platform:
+    image: nx-backend-platform
+    ports:
+      - '3090:3090'
