@@ -1,3 +1,8 @@
+# To run
+
+`npx nx run-many --target=serve --projects=genie-webapp,platform,webapp --parallel`
+
+
 
 
 # Knolskape
