@@ -16,6 +16,11 @@
 
 run `docker-compose up -d`
 
+localhost: 3000 for webapp
+
+localhost: 3010 for genie webapp
+
+localhost: 3090/api for platform backend
 
 
 
